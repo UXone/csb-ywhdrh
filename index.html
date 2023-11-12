@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 👇 This is the head of your website. All scripts are imported here,
+fonts, meta-data, favicon and many other things are declared here, as well as 
+title and the import of your stylesheet. -->
+  <head>
+    <meta charset="utf-8" />
+    <!-- 👇 Imports stylesheet-->
+    <link rel="stylesheet" href="./style.css" />
+    <title>YOMY-Yoga and Meditation</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+    </style>
+  </head>
+
+  <!------------ 👇 This is where the visual page starts ------------>
+  <body>
+    <header>
+      <!-- This is the header section. In here you usually place the logotype and the
+      navigation. -->
+      <!--<img class="logo" src="./assets/yomylogo.png"/>1-->
+      <img class="logo" src="./assets/logo.svg" />
+      <nav>
+        <a href="#">Classes</a>
+        <a href="#">Instructors</a>
+        <a href="#">About us</a>
+        <a href="#">Sign in</a>
+      </nav>
+    </header>
+
+    <main class="marg">
+      <!-- In the main section you usually place the main content.-->
+      <div class="flex-container">
+        <h2 style="padding-top: 200px;">Online Yoga and Meditation</h2>
+      </div>
+      <div class="flex-container">
+        <h1>Elevate Your<br />Body, Mind, and Spirit</h1>
+      </div>
+      <div style="margin-top: 20px;" class="flex-container">
+        <p>Start a Free trial ➤</p>
+        <p class="bttn">Join the Journey</p>
+      </div>
+
+      <!-- Inside the main section, you can create additional sections. Working
+        like this is called semantic, or using semantic tags, which in other
+        words mean that you use correct elements for the right places, and not
+        just use something like a div everywhere. -->
+      <section class="sub-section">
+        <!-- To apply styling to an element, you add a class to it. This class makes
+      it possible to style this element using your stylsheet. -->
+
+        <h2 style="color: white; margin-bottom: 16px">Your Instructors - About the Journey</h2>
+        <div class="flex-container">
+          <img class="cardimage" src="./assets/yoga1.svg" />
+          <img class="cardimage" src="./assets/yoga2.svg" />
+          <img class="cardimage" src="./assets/yoga3.svg" />
+          <img class="cardimage" src="./assets/yoga4.svg" />
+        </div>
+        <div class="flex-container">
+          <b class="cardtext"style="background-color:#45321a"> "Yoga is a mirror reflecting our inner world. Through years of practice, I've learned that strength arises from vulnerability. Come, let's discover the power within you."</b>
+          <b class="cardtext"style="background-color:#182038"> "Yoga is a mirror reflecting our inner world. Through years of practice, I've learned that strength arises from vulnerability. Come, let's discover the power within you."</b>
+          <b class="cardtext"style="background-color:#1C3949"> "Yoga is a mirror reflecting our inner world. Through years of practice, I've learned that strength arises from vulnerability. Come, let's discover the power within you." </b>
+          <b class="cardtext"style="background-color:#573121"> "Yoga is a mirror reflecting our inner world. Through years of practice, I've learned that strength arises from vulnerability. Come, let's discover the power within you."</b>
+
+      </section>
+
+    </main>
+    <footer class="footer">
+        <a href="#" style="margin-left: 112px; margin-top: 30px">Contact us</a>
+        <a href="#" style="margin-left: 112px; padding-top: 16px">FAQ</a>
+        <a href="#" style="margin-left: 112px; padding-top: 16px">English 🇬🇧</a>
+    </footer>
+  </body>
+</html>
