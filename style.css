@@ -1,7 +1,4 @@
-/*This is your stylesheet, it's been pre-configured with basic 
-settings and resets that is needed.
-
-The star(*) represents all elements.
+/*The star(*) represents all elements.
 
 ------------------------------------------------------------------------------*/
 
@@ -19,10 +16,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed; /* Keep the header fixed at the top */
-  top: 0; /* Align the header to the top */
-  left: 0; /* Align the header to the left */
-  right: 0; /* Align the header to the right */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 10; /* Make sure the header is above other content */
 }
 
@@ -30,12 +27,11 @@ body {
   font-family: "Mulish", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 96px; /* Add padding to push the content down below the fixed header */
+  padding-top: 96px;
   background-color: #374f4b;
-  background-image: url("./assets/hero10.png"); /* Add your background image here */
+  background-image: url("./assets/hero10.png");
   background-size: cover;
-  background-position: center -50px; /* Start the image 96px down from the top */
-}
+  background-position: center -50px;
   background-repeat: no-repeat;
 }
 
@@ -76,9 +72,8 @@ nav {
 .flex-container {
   display: flex;
   align-items: center;
-  margin-bottom: p0x;
+  margin-bottom: 0px;
   gap: 16px;
-  /*justify-content: space-around 16px;*/
   /*border: 1px solid red;*/
 }
 .bttn {
@@ -93,11 +88,11 @@ nav {
 }
 .bttn:hover {
   color: #fff;
-  background: #374F4B;
+  background: #374f4b;
 }
 .cardtexttop {
   display: flex;
-  flex: 1;
+  /*flex: 1;*/
   padding: 24px 32px 0px 32px;
   flex-direction: column;
   justify-content: flex-start;
@@ -108,7 +103,7 @@ nav {
 }
 .cardtextbottom {
   display: flex;
-  flex: 1;
+  /*flex: 1;*/
   padding: 0px 32px 24px 0px;
   margin-bottom: 32px;
   flex-direction: column;
@@ -120,36 +115,37 @@ nav {
 }
 .cardimage {
   display: flex;
-  flex: 1;
+  /*flex: 1;*/
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
   align-self: stretch;
   height: auto;
-  width:100%;
-  /*width: 100%; /* Set the width of the container to 100% of its parent */
-  /*height: auto; /* Set a fixed height or make it responsive as needed */
-    /*border: 1px solid red;*/ /* Just to show the container's boundary (optional) */
-  }
-  .cardimage img {
-    width: 100%;
-    height: auto;
-  }
+  width: 100%;
+  height: auto;
+  /*border: 1px solid red;*/
+}
+.cardimage img {
+  width: 100%;
+  height: auto;
+}
 img {
   padding: 0px 0px 0px 0px;
   /*background-color: greenyellow;*/
 }
 .footer {
-  display: flex; 
-  flex-direction:column;
-  justify-content: left; 
-  align-items: left; 
-  height: 175px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  height: 175px;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: #d9d9d9;
-  /* Other styles */
 }
 
-/* -----------------------------------------------------------------------------------------------------------------*/ 
+/* -----------------------------------------------------------------------------------------------------------------*/
 
 h1 {
   font-family: "Philosopher", sans-serif;
@@ -168,18 +164,6 @@ h2 {
   line-height: normal;
   color: #45321a;
   margin-top: 0px;
-}
-
-h3 {
-}
-
-h4 {
-}
-
-h5 {
-}
-
-h6 {
 }
 
 b {
@@ -211,4 +195,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
